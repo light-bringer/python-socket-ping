@@ -1,3 +1,8 @@
+from packet import Packet
+
+
+
+
 def ping(addr):
     print "PING (%s): %d data bytes" % (addr,datalen)
 
