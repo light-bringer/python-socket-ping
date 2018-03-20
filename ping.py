@@ -1,7 +1,9 @@
 from packet import Packet
+import struct,socket,sys,time, os
 
 
-
+datalen = 56
+BUFSIZE = 1500
 
 def ping(addr):
     print "PING (%s): %d data bytes" % (addr,datalen)
@@ -46,7 +48,15 @@ def ping(addr):
         time.sleep(1)
         
         
-        
+   
+   
+
+def main(addr):
+    s = socket.socket(socket.AF_INET,socket.SOCK_RAW)
+    s.connect((addr,))
+
+
+
   
 
 
