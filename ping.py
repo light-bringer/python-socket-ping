@@ -39,3 +39,10 @@ def ping(addr):
         print "%d bytes from %s: id=%s, seq=%u, rtt=%.3f ms" % (len(buf),
                                                         addr, ident, seq, rtt)
         time.sleep(1)
+        
+        
+        
+  
+
+
+
