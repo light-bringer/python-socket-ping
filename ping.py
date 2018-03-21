@@ -57,6 +57,9 @@ def main(addr):
 
 
 
+if __name__=='__main__':
+    import sys
+    ping(sys.argv[1])
   
 
 
